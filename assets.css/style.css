@@ -270,3 +270,12 @@ section {
     color: #fce138;
 }
 /*Reach out style end*/
+
+/*UTILITIES*/
+.text-left {
+    text-align: right;
+}
+
+.text-right {
+    text-align: right;
+}
