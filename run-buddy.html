@@ -171,49 +171,51 @@
         </section>
 
         <!--"Meet the trainers" section-->
-        <section id="your-trainers" class="trainers">
+    
             <div class="flex-row">
                 <h2 class="section-title primary-border">
                     Meet The Trainers
                 </h2>
             </div>
-            <article class="trainer">
-                <img src="assets.css/images/trainer-1.jpg" alt="Aaron Stephens in hid workout clothes, ready to pump iron" />
-                <div class="trainer-bio text-left">
-                    <h3>Aaron Stephend</h3>
-                    <h4>Speed/Strength</h4>
-                    <p>
-                        Randon stuff A-A ron says
-                    </p>
-                </div>
-            </article>
+            <div class="trainers">
+                <article class="trainer">
+                    <img src="assets.css/images/trainer-1.jpg" alt="Aaron Stephens in hid workout clothes, ready to pump iron" />
+                        <div class="trainer-bio">
+                            <h3 class="trainer-name">Aaron Stephend</h3>
+                            <h4 class="trainer-role">Speed/Strength</h4>
+                            <p>
+                                Randon stuff A-A ron says
+                            </p>
+                        </div>
+                </article>
 
-            <!--Second trainer bio-->
+                <!--Second trainer bio-->
 
-            <article class="trainer">
-                <div class="trainer-bio text-right">
-                    <h3>Joanna Gill</h3>
-                    <h4>Endurance</h4>
-                    <p>
-                        Joanna Gill Random information about herself!
-                    </p>
-                </div>
-                <img src="./assets.css/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout"/>
-            </article>
-        </section>
+                <article class="trainer">
+                    <img src="./assets.css/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout"/>
+                    <div class="trainer-bio">
+                        <h3 class="trainer-name">Joanna Gill</h3>
+                        <h4 class="trainer-role">Endurance</h4>
+                        <p>
+                            Joanna Gill Random information about herself!
+                        </p>
+                    </div>
+                </article>
+        
 
         <!--Third trainers bio-->
 
         <article class="trainer">
             <img src="./assets.css/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
-            <div class="trainer-bio text-left">
-                <h3>Harry "the headband" Smith</h3>
-                <h4>Strength</h4>
+            <div class="trainer-bio">
+                <h3 class="trainer-name">Harry "the headband" Smith</h3>
+                <h4 class="trainer-role">Strength</h4>
                 <p>
                     Harry liked to lift pink weights to show off his sweet muscles
                 </p>
             </div>
         </article>
+    </div>
         
 
         <!--"reach out" section-->
@@ -242,7 +244,7 @@
                     <form>
                         <label for="contact-name">Your Name</label>
                         <input type="text" id="contact-name" placeholder="Your Name" />
-
+                        <br>
                         <label for="contact-message">Message</label>
                         <textarea id="contact-message" placeholder="Messsage"></textarea>
 
